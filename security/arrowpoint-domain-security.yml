@@ -1,0 +1,43 @@
+generated: '2026-07-20'
+method: probed
+source: dig + TLS/TCP probe of arrowpoint.com
+note: >-
+  ArrowPoint Communications was acquired by Cisco Systems in June 2000 and no
+  longer operates. The arrowpoint.com domain is still held by Cisco (Cisco
+  nameservers) but resolves to a host that serves nothing — no HTTPS, no HTTP.
+  Absence of records below is real probed data, not a failed probe.
+hosts:
+  - host: arrowpoint.com
+    resolves: true
+    a_records:
+      - 206.25.90.84
+    https: false
+    tls_version: null
+    https_port_open: false
+    http_port_open: false
+    hsts: null
+    note: TCP 443 and TCP 80 both closed; HTTPS request returns connection refused (HTTP 000)
+  - host: www.arrowpoint.com
+    resolves: true
+    https: false
+    https_port_open: false
+    hsts: null
+domains:
+  - domain: arrowpoint.com
+    nameservers:
+      - ns1.cisco.com
+      - ns2.cisco.com
+      - ns3.cisco.com
+    registrant_inference: Cisco Systems (delegated to Cisco nameservers)
+    dnssec: false
+    ds_records: []
+    caa: []
+    spf: false
+    txt_records: []
+    dmarc: false
+    dmarc_policy: null
+summary:
+  live_web_surface: false
+  live_api_surface: false
+  email_authentication_published: false
+  certificate_authority_authorization_published: false
