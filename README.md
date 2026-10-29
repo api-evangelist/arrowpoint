@@ -64,20 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ArrowPoint Communications, Inc. (NASDAQ: ARPT) was a networking company based in Acton, Massachusetts that built content switches — Layer 4-7 "web switches" that inspected HTTP content, cookies and URLs to route and load-balance traffic across web server farms, CDNs and hosting providers.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Founded in 1997 and backed by Matrix Partners, North Bridge Venture Partners and Accel Partners, it IPO'd in early 2000 and was acquired by Cisco Systems in a stock deal announced 2000-05-05 and completed 2000-06-23, valued at roughly $5.7 billion. Its CSS 11000 series and WebNS software became a Cisco product line that has since reached end-of-life and been retired.
+ArrowPoint Communications, Inc. (NASDAQ: ARPT) was a networking company based in Acton, Massachusetts that built content switches — Layer 4-7 "web switches" that inspected HTTP content, cookies and URLs to route and load-balance traffic across web server farms, CDNs and hosting providers. Founded in 1997 and backed by Matrix Partners, North Bridge Venture Partners and Accel Partners, it IPO'd in early 2000 and was acquired by Cisco Systems in a stock deal announced 2000-05-05 and completed 2000-06-23, valued at roughly $5.7 billion. Its CSS 11000 series and WebNS software became a Cisco product line that has since reached end-of-life and been retired. ArrowPoint no longer operates as an independent company: it publishes no developer portal, no documentation, no APIs and no SDKs, and the arrowpoint.com domain — still delegated to Cisco nameservers — serves no live web or API surface. This profile is retained as a historical record of a Matrix Partners portfolio exit.
 
-## Status: defunct — no API surface
+**Areas:** Company · Infrastructure · Networking · Content Delivery · Load Balancing · Acquired · Historical · Defunct
 
-ArrowPoint no longer operates as an independent company. As of the 2026-07-20 enrichment pass it publishes no developer portal, documentation, API reference, OpenAPI, SDKs, packages, CLI, MCP server or `/.well-known/` surface. The `arrowpoint.com` domain is still delegated to Cisco nameservers and resolves to `206.25.90.84`, but TCP 80 and 443 are both closed — there is no live web or API surface, and no SPF, DMARC, CAA or DNSSEC records are published.
+## ArrowPoint on APIs.io (historical record)
 
-This profile is retained as a historical record of a Matrix Partners portfolio exit. Do not re-queue it for artifact enrichment.
+Everything profiled for ArrowPoint is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arrowpoint/](https://apis.io/providers/arrowpoint/)** — or go straight to one of the APIs or properties below.
 
-Backed by: matrix-partners, north-bridge-venture-partners, accel
+### Published properties
 
-## References
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- [Cisco Systems to Acquire ArrowPoint Communications](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m05/cisco-systems-to-acquire-arrowpoint-communications.html) (2000-05-05)
-- [Cisco Systems Completes Acquisition of ArrowPoint](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m06/cisco-systems-completes-acquisition-of-arrowpoint.html) (2000-06-23)
-- [Cisco CSS 11000 Series Content Services Switches — retired](https://www.cisco.com/c/en/us/obsolete/application-networking-services/cisco-css-11000-series-content-services-switches.html)
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arrowpoint Domain Security](https://apis.io/security/arrowpoint/arrowpoint-domain-security/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ArrowPoint: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arrowpoint/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
